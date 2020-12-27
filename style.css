@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+header{
+    max-width: 100%;
+    height: auto;
+    
+}
+header .branding{
+    max-width: 100%;
+    height: auto;
+    margin: 0% auto;
+    
+    background-color: #ab183e;
+    display: flex;
+}
+header .branding .logo {
+    margin-left: 2%;
+}
+header .branding .brand_name{
+    width: auto;
+    height: auto;
+    margin-left: 22%;
+}
+header .branding .brand_name .brand_name1{
+    justify-self: center;
+    font-size: 3em;
+    margin-top: 7%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 580;
+    color: #fff;
+}
+header .branding .brand_name .link{
+    color: wheat;
+}
+nav {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    text-align: justify;
+
+
+}
+nav ul li{
+    list-style: none;
+    padding: 5px;
+    background-color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: justify;
+    color: white;
+}
