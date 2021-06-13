@@ -47,6 +47,8 @@ nav {
 nav ul {
     display: flex;
     text-align: justify;
+    justify-content: space-between;
+    background-color: black;
 
 
 }
